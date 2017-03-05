@@ -14,7 +14,7 @@ $("#searchButton").on("click", function() {
 
 
 
-function runQuery(numArticles){
+function runQuery(numArticles, queryURL){
 
   $.ajax({
     url: queryURL + $.param(parameterObj),
@@ -27,7 +27,7 @@ function runQuery(numArticles){
 
 
     // 
-    // 
+    // Copied over from example
 
 for (var i = 0; i < numArticles; i++) {
       // Add to the Article Counter (to make sure we show the right number)
