@@ -33,6 +33,8 @@ $("#searchButton").on("click", function() {
         console.log(artResponse.response.docs[i].headline.main);
 
         //For loop to loop through headlines and append to HTML
+
+          //Write addintional Jquery functions for article pieces after headlines is working
 });
 });
  
